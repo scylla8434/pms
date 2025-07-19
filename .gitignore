@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+pms-backend/node_modules/
+pms-frontend/node_modules/
+
+# Build output
+pms-frontend/build/
+
+# Runtime data
+pms-backend/uploads/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Misc
+*.local
+*.cache
+
+# Coverage
+coverage/
+
+# IDE files
+.idea/
+*.iml
+
+# Test output
+junit.xml
+
+# Ignore package-lock and yarn.lock if not needed
+# package-lock.json
+yarn.lock
